@@ -1,0 +1,395 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/simulation/modelsim
+vadder
+Z1 !s110 1760207127
+!i10b 1
+!s100 jXE67fZjiCj2W4l?`i:H?0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IV^e6?RPkz6ZXg3:UH4C?N0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1722889559
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v
+!i122 13
+L0 4 8
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1760207127.000000
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components
+Z8 tCvgOpt 0
+valu
+R1
+!i10b 1
+!s100 gO<;LjIlKViDROhdR_a381
+R2
+I`WE_aOUmSM<4^SNUNFQMf1
+R3
+R0
+w1759471542
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v
+!i122 12
+Z9 L0 4 29
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v|
+!i113 1
+R6
+R7
+R8
+valu_decoder
+R1
+!i10b 1
+!s100 =GzcT:oMW2Qmcn8C8TQ=02
+R2
+IHH]7T;BgTocmTEbIQ4G_W3
+R3
+R0
+w1759471432
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu_decoder.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu_decoder.v
+!i122 11
+L0 4 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu_decoder.v|
+!i113 1
+R6
+R7
+R8
+vcontroller
+R1
+!i10b 1
+!s100 fKS83Tl?l?Z[4dJXG^HWG0
+R2
+I?@HeXTabbhKOL0;Oa_FcB0
+R3
+R0
+w1760187458
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v
+!i122 10
+Z10 L0 4 25
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v|
+!i113 1
+R6
+R7
+R8
+vdata_mem
+Z11 !s110 1760207126
+!i10b 1
+!s100 BJY=ekkjC2L@HKGUeZTg`2
+R2
+I9fcl_g:ZQB@cRcXMl]SoL1
+R3
+R0
+w1760207032
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v
+!i122 2
+L0 4 55
+R4
+r1
+!s85 0
+31
+Z12 !s108 1760207126.000000
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v|
+!i113 1
+R6
+Z13 !s92 -vlog01compat -work work +incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code
+R8
+vdatapath
+R1
+!i10b 1
+!s100 69`?EoG2_ASKET>:_PONc0
+R2
+IQ7fo7ibZmJ286GVh>AFFF1
+R3
+R0
+w1760179973
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v
+!i122 9
+L0 3 43
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v|
+!i113 1
+R6
+R7
+R8
+vimm_extend
+R1
+!i10b 1
+!s100 KCY0HN8a_SDDT@o^3341e2
+R2
+I[VQbJ<@_IQf2=6B48IL?S1
+R3
+R0
+w1722889667
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v
+!i122 8
+L0 3 21
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v|
+!i113 1
+R6
+R7
+R8
+vinstr_mem
+R1
+!i10b 1
+!s100 j]fO@NhI<Qg<e729R:YB@1
+R2
+I90R6gTR<j?_jH8KbzdEG>3
+R3
+R0
+w1760193742
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/instr_mem.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/instr_mem.v
+!i122 14
+L0 4 18
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/instr_mem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/instr_mem.v|
+!i113 1
+R6
+R13
+R8
+vmain_decoder
+R1
+!i10b 1
+!s100 OlW@zWTj[mOP?gZFHBVN^0
+R2
+IYXDFXidZ1Jh<90Vc8W6g>2
+R3
+R0
+w1760199191
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v
+!i122 7
+R9
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v|
+!i113 1
+R6
+R7
+R8
+vmux2
+R1
+!i10b 1
+!s100 O<Ld`3jD6QL?6PIEe_QAk1
+R2
+I^7Sk3nMl@`FV[7[8=?>oK2
+R3
+R0
+w1722889625
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v
+!i122 6
+Z14 L0 4 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v|
+!i113 1
+R6
+R7
+R8
+vmux4
+R1
+!i10b 1
+!s100 V4YdM>hK^I8CMb?cH8Cej3
+R2
+IONi7J9`cF>9k]k[`W[LDd2
+R3
+R0
+w1722889634
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux4.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux4.v
+!i122 5
+R14
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux4.v|
+!i113 1
+R6
+R7
+R8
+vreg_file
+R1
+!i10b 1
+!s100 z2]InGk0[gjzdlc7_WWYI1
+R2
+I37KcB=c>`6D2[W5LiZKEO0
+R3
+R0
+w1722889641
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reg_file.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reg_file.v
+!i122 4
+L0 8 27
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reg_file.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reg_file.v|
+!i113 1
+R6
+R7
+R8
+vreset_ff
+R1
+!i10b 1
+!s100 c1I5T0L8]]ZK0dn2hg0_F0
+R2
+IPN6EQkJ[T:nWI]28FXaI_0
+R3
+R0
+w1722889645
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reset_ff.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reset_ff.v
+!i122 3
+L0 4 12
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reset_ff.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/reset_ff.v|
+!i113 1
+R6
+R7
+R8
+vriscv_cpu
+R11
+!i10b 1
+!s100 bz66iI@;<;E9H<XVn?kLM1
+R2
+IT5KUNl0NdUUCKj]`[h6MK3
+R3
+R0
+w1759470281
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v
+!i122 1
+L0 4 23
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v|
+!i113 1
+R6
+R13
+R8
+vt1c_riscv_cpu
+R11
+!i10b 1
+!s100 _06EPmW0mYWo69XjmhmhY3
+R2
+IVoW6955>ABD_SgPIB<f2;1
+R3
+R0
+w1760199303
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/t1c_riscv_cpu.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/t1c_riscv_cpu.v
+!i122 0
+R10
+R4
+r1
+!s85 0
+31
+R12
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/t1c_riscv_cpu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/t1c_riscv_cpu.v|
+!i113 1
+R6
+R13
+R8
+vtb
+!s110 1760207128
+!i10b 1
+!s100 ?d[m3DQj3GZWlF95>`SGA3
+R2
+Ij91SmSGi5GMa0>ZiJ3Uom1
+R3
+R0
+w1760201553
+8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test/tb.v
+F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test/tb.v
+!i122 15
+L0 3 532
+R4
+r1
+!s85 0
+31
+!s108 1760207128.000000
+!s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test/tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test/tb.v|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/.test
+R8

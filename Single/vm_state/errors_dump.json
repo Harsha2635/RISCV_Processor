@@ -1,0 +1,9 @@
+{
+    "errorCode": 1,
+    "errors": [
+        {
+            "line": 99,
+            "message": "Invalid syntax: Expected: jalr <gp-reg>, <gp-imm>(<gp-reg>)"
+        }
+    ]
+}

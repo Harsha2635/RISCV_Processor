@@ -1,0 +1,93 @@
+0000000000000000 <main>:
+    0: 00100093             addi x1, x0, 1
+    4: 01000113             addi x2, x0, 16
+    8: ffd00193             addi x3, x0, -3
+    c: 00000213             addi x4, x0, 0
+   10: 00c18293             addi x5, x3, 12
+   14: 00211313             slli x6, x2, 2
+   18: ff012393             slti x7, x2, -16
+   1c: ff013413             sltiu x8, x2, -16
+   20: 01214493             xori x9, x2, 18
+   24: 0031d513             srli x10, x3, 3
+   28: 4031d593             srai x11, x3, 3
+   2c: 0031e613             ori x12, x3, 3
+   30: 0031f693             andi x13, x3, 3
+   34: 00110733             add x14, x2, x1
+   38: 401107b3             sub x15, x2, x1
+   3c: 00111833             sll x16, x2, x1
+   40: 003128b3             slt x17, x2, x3
+   44: 00313933             sltu x18, x2, x3
+   48: 001149b3             xor x19, x2, x1
+   4c: 00115a33             srl x20, x2, x1
+   50: 40115ab3             sra x21, x2, x1
+   54: 00116b33             or x22, x2, x1
+   58: 00117bb3             and x23, x2, x1
+   5c: 02000c37             lui x24, 8192
+   60: 02000c97             auipc x25, 8192
+   64: 001108a3             sb x2, x1, 17
+   68: 00311b23             sh x2, x3, 22
+   6c: 00212c23             sw x2, x2, 24
+   70: 02418d03             lb x26, x3, 36
+   74: 02919d83             lh x27, x3, 41
+   78: 02b1ae03             lw x28, x3, 43
+   7c: 0241ce83             lbu x29, x3, 36
+   80: 0291df03             lhu x30, x3, 41
+   84: 00000213             addi x4, x0, 0
+   88: ffb00313             addi x6, x0, -5
+   8c: 00500393             addi x7, x0, 5
+
+0000000000000090 <target_1>:
+   90: 00120213             addi x4, x4, 1
+   94: 00130313             addi x6, x6, 1
+   98: fe734ce3             blt x6, x7, -8 <target_1>
+   9c: 00600333             add x6, x0, x6
+   a0: 00000213             addi x4, x0, 0
+   a4: ffb00413             addi x8, x0, -5
+   a8: 00500493             addi x9, x0, 5
+
+00000000000000ac <target_2>:
+   ac: 00120213             addi x4, x4, 1
+   b0: fff48493             addi x9, x9, -1
+   b4: fe84dce3             bge x9, x8, -8 <target_2>
+   b8: 009004b3             add x9, x0, x9
+   bc: 00000213             addi x4, x0, 0
+   c0: 00100513             addi x10, x0, 1
+   c4: 00500593             addi x11, x0, 5
+
+00000000000000c8 <target_3>:
+   c8: 00120213             addi x4, x4, 1
+   cc: 00150513             addi x10, x10, 1
+   d0: feb56ce3             bltu x10, x11, -8 <target_3>
+   d4: 00a00533             add x10, x0, x10
+   d8: 00000213             addi x4, x0, 0
+   dc: 00100613             addi x12, x0, 1
+   e0: 00500693             addi x13, x0, 5
+
+00000000000000e4 <target_4>:
+   e4: 00120213             addi x4, x4, 1
+   e8: fff68693             addi x13, x13, -1
+   ec: fec6fce3             bgeu x13, x12, -8 <target_4>
+   f0: 00d006b3             add x13, x0, x13
+   f4: 00000213             addi x4, x0, 0
+   f8: 00500713             addi x14, x0, 5
+   fc: 00000793             addi x15, x0, 0
+
+0000000000000100 <target_5>:
+  100: 00120213             addi x4, x4, 1
+  104: 00178793             addi x15, x15, 1
+  108: fee79ce3             bne x15, x14, -8 <target_5>
+  10c: 00f007b3             add x15, x0, x15
+  110: 00000213             addi x4, x0, 0
+  114: 00200813             addi x16, x0, 2
+  118: 00300893             addi x17, x0, 3
+
+000000000000011c <target_6>:
+  11c: 00120213             addi x4, x4, 1
+  120: 00180813             addi x16, x16, 1
+  124: ff180ce3             beq x16, x17, -8 <target_6>
+  128: 01000833             add x16, x0, x16
+  12c: fff00213             addi x4, x0, -1
+  130: 01f00fb3             add x31, x0, x31
+
+0000000000000134 <target_7>:
+  134: 0000026f             jal x4, 0 <target_7>

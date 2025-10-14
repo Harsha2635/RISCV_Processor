@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 d/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/simulation/modelsim
 vadder
-Z1 !s110 1760357128
+Z1 !s110 1760372526
 !i10b 1
 !s100 jXE67fZjiCj2W4l?`i:H?0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1760357128.000000
+Z6 !s108 1760372526.000000
 !s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/adder.v|
 !i113 1
@@ -36,16 +36,16 @@ Z9 tCvgOpt 0
 valu
 R1
 !i10b 1
-!s100 6M41DOz9F>[Mfd`Aenc@:2
+!s100 =@RkM[@2b1Dih<7zCz1OJ3
 R2
-IeEm?23]J5O4mbBonN4BV63
+IeYLeJ:;59K7>P`gCGYYJ:3
 R3
 R0
-w1760349672
+w1760358252
 8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v
 F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/alu.v
 !i122 12
-L0 4 30
+L0 4 31
 R5
 r1
 !s85 0
@@ -84,12 +84,12 @@ R9
 vcontroller
 R1
 !i10b 1
-!s100 hYB_iBF<>;a40cnz90bDi3
+!s100 k^UYmMm_OFPa^Sof^=:zm3
 R2
-IX?9EMfhKJ]RHHV03F1:hn2
+I9iCH4Enf3gM^dG2RdBFoR0
 R3
 R0
-w1760347524
+w1760358303
 8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v
 F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/controller.v
 !i122 10
@@ -106,7 +106,7 @@ R7
 R8
 R9
 vdata_mem
-Z11 !s110 1760357127
+Z11 !s110 1760372525
 !i10b 1
 !s100 656E=UJD5W;F1UM>8ioTg0
 R2
@@ -122,7 +122,7 @@ R5
 r1
 !s85 0
 31
-Z12 !s108 1760357127.000000
+Z12 !s108 1760372525.000000
 !s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/data_mem.v|
 !i113 1
@@ -132,12 +132,12 @@ R9
 vdatapath
 R1
 !i10b 1
-!s100 bC6^=_3LT460TO<UhH?nM1
+!s100 H?=k[8kSnP;hbPKJXA0B@3
 R2
-I:bBK4f7z^`bbz_lWfTN:e1
+I?nChQ67e8K6=E?jEVld6b1
 R3
 R0
-w1760348014
+w1760358343
 8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v
 F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/datapath.v
 !i122 9
@@ -154,7 +154,7 @@ R7
 R8
 R9
 vimm_extend
-R1
+R11
 !i10b 1
 !s100 KCY0HN8a_SDDT@o^3341e2
 R2
@@ -170,7 +170,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/imm_extend.v|
 !i113 1
@@ -202,23 +202,23 @@ R7
 R13
 R9
 vmain_decoder
-R1
+R11
 !i10b 1
-!s100 ?<zjTJL[TmdM>dHA=`7Bm0
+!s100 _mFFnDVDm=C^30lEMEK7h1
 R2
-I^V:FU^g91`>^0B77S_j7P2
+ImWB<Z1b17]YWKWnQBKWHk3
 R3
 R0
-w1760348134
+w1760359088
 8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v
 F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v
 !i122 7
-L0 4 42
+L0 4 44
 R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/main_decoder.v|
 !i113 1
@@ -226,7 +226,7 @@ R7
 R8
 R9
 vmux2
-R1
+R11
 !i10b 1
 !s100 O<Ld`3jD6QL?6PIEe_QAk1
 R2
@@ -242,7 +242,7 @@ R5
 r1
 !s85 0
 31
-R6
+R12
 !s107 /home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components|/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/components/mux2.v|
 !i113 1
@@ -250,7 +250,7 @@ R7
 R8
 R9
 vmux4
-R1
+R11
 !i10b 1
 !s100 V4YdM>hK^I8CMb?cH8Cej3
 R2
@@ -324,12 +324,12 @@ R9
 vriscv_cpu
 R11
 !i10b 1
-!s100 G_RC^kR7SGFZc:JcHOfKW1
+!s100 BNBBN1gYEM>>9hEOOMM302
 R2
-IDQ:Q9G[dVGj7SMlQQNV_F3
+IncKjTgSTkX?7lAG:TgilY1
 R3
 R0
-w1760347612
+w1760359328
 8/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v
 F/home/harsha/QuartusFinal/quartus/bin/t1c_riscv_cpu/code/riscv_cpu.v
 !i122 1

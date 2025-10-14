@@ -6,7 +6,7 @@ module alu #(parameter WIDTH = 32) (
     input       [WIDTH-1:0] b,       // operand b
     input       [3:0] alu_ctrl,         // ALU control
     output reg  [WIDTH-1:0] alu_out,    // ALU output
-    output      zero                    // zero flag
+    output      zero, sltu                    // zero flag
 );
 
 always @(a, b, alu_ctrl) begin
@@ -29,6 +29,7 @@ always @(a, b, alu_ctrl) begin
 end
 
 assign zero = (alu_out == 0) ? 1'b1 : 1'b0;
+assign sltu = (a < b) ? 1 : 0;
 
 endmodule
 

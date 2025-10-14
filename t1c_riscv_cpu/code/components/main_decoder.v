@@ -4,7 +4,7 @@
 module main_decoder (
     input  [6:0] op,
     input  [2:0] funct3,
-    input        Zero, ALUR31,
+    input        Zero, ALUR31, sltu,
     output [1:0] ResultSrc,
     output       MemWrite, Branch, ALUSrc,
     output       RegWrite, Jump, Jalr,
@@ -29,6 +29,8 @@ always @(*) begin
                 3'b001 : TakeBranch = !Zero; //bne
                 3'b100 : TakeBranch = ALUR31; //blt
                 3'b101 : TakeBranch = !ALUR31; //bge
+                3'b110 : TakeBranch = sltu; //bltu
+                3'b111 : TakeBranch = !sltu; //bgeu
             endcase
         end
         7'b0010011: controls = 12'b1_00_1_0_00_10_0_0; // I–type(Arithmetic)

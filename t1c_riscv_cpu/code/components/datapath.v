@@ -8,7 +8,7 @@ module datapath (
     input [1:0]   ImmSrc,
     input [3:0]   ALUControl,
     input         Jalr,
-    output        Zero, ALUR31,
+    output        Zero, ALUR31, sltu,
     output [31:0] PC,
     input  [31:0] Instr,
     output [31:0] Mem_WrAddr, Mem_WrData,
@@ -32,7 +32,7 @@ imm_extend     ext (Instr[31:7], ImmSrc, ImmExt);
 
 // ALU logic
 mux2 #(32)     srcbmux(WriteData, ImmExt, ALUSrc, SrcB);
-alu            alu (SrcA, SrcB, ALUControl, ALUResult, Zero);
+alu            alu (SrcA, SrcB, ALUControl, ALUResult, Zero, sltu);
 
 //LAuipc logic
 adder #(32) AuipcAdder({Instr[31:12], 12'b0}, PC, Auipc);

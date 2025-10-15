@@ -1,6 +1,6 @@
 {
     "program_counter": "0x00000000",
-    "current_line": 1,
+    "current_line": 5,
     "current_instruction": "0x00000000",
     "disassembly_line_number": 2,
     "cycle_count": 0,

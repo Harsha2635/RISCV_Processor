@@ -512,6 +512,11 @@ always @(negedge clk) begin
     endcase
 end
 
+initial begin
+  $dumpfile("simulation.vcd");  // Name of the output VCD (Value Change Dump) file
+  $dumpvars(0, tb);  // Dump all signals in top module and submodules
+end
+
 always @(negedge clk) begin
     if (i >= 38 || flag == 1) begin
         $display("Faulty Instructions => %d", fault_instrs);

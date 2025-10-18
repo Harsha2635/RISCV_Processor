@@ -20,7 +20,7 @@ always @(*) begin
             2'b01 : imm_extend = {{52{instr[31]}}, instr[31:25], instr[11:7]}; // S - Type
             2'b10 : imm_extend = {{51{instr[31]}}, instr[31], instr[7], instr[30 : 25], instr[11 : 8], 1'b0}; // B - Type Instructions
             2'b11 : imm_extend = {{43{instr[31]}}, instr[31], instr[19:12], instr[20], instr[30:21], 1'b0}; // J - Type Instructions
-            default : imm_extend = 64'bx;
+            default : imm_src = 64'bx;
         endcase
     end
 end

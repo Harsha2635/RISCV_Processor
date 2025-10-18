@@ -6,7 +6,7 @@ module controller(
     output reg pc_src,
     output [1:0]result_src,
     output mem_write,
-    output [3:0]alu_control,
+    output reg [3:0]alu_control,
     output alu_src,
     output [1:0]imm_src,
     output reg_write
@@ -54,8 +54,8 @@ module controller(
             2'b10 : begin
                 case(funct3)
                     3'b000 : begin
-                        if(funct7_5 & op_5) alu_control = 4'b0001 //sub
-                        else alu_control = 4'b0000                //add, addi
+                        if(funct7_5 & op_5) alu_control = 4'b0001; //sub
+                        else alu_control = 4'b0000;              //add, addi
                     end
                     3'b001 : alu_control = 4'b0010; //sll
                     3'b010 : alu_control = 4'b0011; //slt

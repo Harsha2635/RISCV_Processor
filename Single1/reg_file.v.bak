@@ -9,11 +9,10 @@ module reg_file #(parameter WIDTH = 32) (
 localparam n_regs = 32;
 
 reg [WIDTH - 1 : 0]reg_file_array[0 : n_regs - 1];
-integer i;
 
 always @(posedge clk or negedge reset) begin
     if(!reset) begin
-        for(i = 0; i < n_regs; i=i+1) begin
+        for(integer i = 0; i < n_regs; i++) begin
             reg_file_array[i] = 0;
         end
     end

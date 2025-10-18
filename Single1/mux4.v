@@ -1,4 +1,4 @@
-module #(parameter WIDTH = 32) mux4(
+module mux4 #(parameter WIDTH = 32) (
     input  [WIDTH - 1 : 0] a, b, c, d,
     input  [1 : 0] sel,
     output [WIDTH - 1 : 0] out
